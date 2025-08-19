@@ -1,0 +1,41 @@
+/* Write your code here: */
+
+/*How to combine CSS Selectors*/
+/*types
+
+/* Group */
+h1,h2{
+    color:blue
+}
+
+
+/* Child */
+.box > p{
+    color: red;
+}
+
+/* Descendent */
+/*<!-- u can write for down code like this also : .box li {   }--> */
+
+.box ul{       
+    color: blueviolet;
+}
+
+
+/* Chained */
+li.done{
+    color:orange;
+}
+
+
+
+/* Multiple Combiners */
+ul p.done{
+    color:brown;
+
+}
+/*can write like this too (for above code)*/
+body > ul{
+    font-size: 0.5rem
+
+}
